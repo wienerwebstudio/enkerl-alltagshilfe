@@ -1,7 +1,11 @@
 [build]
   publish = "."
 
+# After a successful Netlify Forms submission the form posts to /danke;
+# redirect that back to the homepage with a success flag so JS can show the
+# friendly thank-you message.
 [[redirects]]
   from = "/danke"
-  to = "/index.html"
-  status = 200
+  to = "/?success=true#contact"
+  status = 302
+  force = true

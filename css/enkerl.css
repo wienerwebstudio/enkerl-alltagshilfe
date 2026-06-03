@@ -1,0 +1,471 @@
+/* =====================================================================
+   ENKERL THEME OVERRIDES  (loads AFTER css/styles.css)
+   Built on Start Bootstrap "Agency" (MIT). Template structure & CSS base
+   are kept intact; this file only swaps the accent colors, warms up the
+   hero, rounds the buttons and adds the one documented scroll animation.
+
+   ---------------------------------------------------------------------
+   ANIMATIONSPLAN (exactly one consistent, subtle effect)
+   ---------------------------------------------------------------------
+   - Every section block / card / tile carrying the class ".reveal" fades
+     in ONCE on first entry into the viewport and glides up 16px.
+   - Driven by IntersectionObserver (js/enkerl.js), threshold 0.15.
+   - Transition: opacity + transform, 450ms ease-out. Fires only once
+     (observer unobserves after reveal). No repeat on scroll-back.
+   - NO parallax, NO scroll-scrubbing, NO horizontal motion.
+   - Navbar keeps the Agency default: shrinks + gets a background on scroll.
+   - Portfolio tiles: soft zoom + colored overlay on hover (desktop);
+     on touch devices the caption stays visible (no hover dependency).
+   - Nothing else moves while scrolling.
+   - prefers-reduced-motion: reveals are shown instantly, no transitions.
+   ===================================================================== */
+
+:root {
+    --enkerl-primary: #FF9F1C;   /* warm sun amber - main accent / buttons */
+    --enkerl-secondary: #2EC4B6; /* friendly teal - second accent */
+    --enkerl-coral: #FF6B5B;     /* warm coral - used sparingly */
+    --enkerl-cream: #FFF7EC;     /* warm background for light sections */
+    --enkerl-ink: #3A352F;       /* warm dark text */
+    --enkerl-primary-dark: #e8890f;
+}
+
+/* ---- Base typography / color ---- */
+body {
+    color: var(--enkerl-ink);
+}
+.text-muted {
+    color: #6f675c !important;
+}
+
+/* ---- Buttons: friendly & round ---- */
+.btn {
+    border-radius: 50px;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--enkerl-primary);
+    --bs-btn-border-color: var(--enkerl-primary);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--enkerl-primary-dark);
+    --bs-btn-hover-border-color: var(--enkerl-primary-dark);
+    --bs-btn-focus-shadow-rgb: 255, 159, 28;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--enkerl-primary-dark);
+    --bs-btn-active-border-color: var(--enkerl-primary-dark);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: var(--enkerl-primary);
+    --bs-btn-disabled-border-color: var(--enkerl-primary);
+    box-shadow: 0 8px 20px rgba(255, 159, 28, 0.28);
+}
+.btn-xl {
+    padding: 1rem 2.25rem;
+}
+
+/* ---- Accent color swaps (replace Agency yellow #ffc800 / #fec503) ---- */
+.text-primary {
+    color: var(--enkerl-primary) !important;
+}
+a {
+    color: var(--enkerl-primary-dark);
+}
+a:hover {
+    color: var(--enkerl-primary);
+}
+
+/* ---- Section headings: warm ink + amber underline accent ---- */
+.page-section h2.section-heading,
+.page-section .section-heading {
+    color: var(--enkerl-ink);
+    position: relative;
+    display: inline-block;
+}
+.page-section .text-center .section-heading::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    margin: 1rem auto 0;
+    border-radius: 4px;
+    background: linear-gradient(90deg, var(--enkerl-primary), var(--enkerl-secondary));
+}
+.section-heading.text-start::after {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+/* ---- Cream background utility ---- */
+.bg-cream {
+    background-color: var(--enkerl-cream) !important;
+}
+.bg-light {
+    background-color: var(--enkerl-cream) !important;
+}
+
+/* =====================================================================
+   NAVBAR
+   ===================================================================== */
+#mainNav {
+    background-color: rgba(58, 53, 47, 0.0);
+}
+#mainNav .navbar-brand {
+    color: #fff;
+    font-size: 1.6rem;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: var(--enkerl-primary);
+}
+/* mobile collapsed menu: solid warm bg for readability */
+#mainNav {
+    background-color: var(--enkerl-ink);
+}
+#mainNav.navbar-shrink {
+    background-color: var(--enkerl-ink);
+}
+#mainNav .nav-cta {
+    background-color: var(--enkerl-primary);
+    color: #fff !important;
+    border-radius: 50px;
+    padding-left: 1.1rem !important;
+    padding-right: 1.1rem !important;
+}
+#mainNav .nav-cta:hover {
+    background-color: var(--enkerl-primary-dark);
+    color: #fff !important;
+}
+@media (min-width: 992px) {
+    #mainNav {
+        background-color: transparent;
+    }
+    #mainNav.navbar-shrink {
+        background-color: var(--enkerl-ink);
+    }
+}
+
+/* =====================================================================
+   MASTHEAD / HERO  -  warm, bright overlay (not dark & gloomy)
+   ===================================================================== */
+header.masthead {
+    background-image:
+        linear-gradient(135deg, rgba(255, 159, 28, 0.35), rgba(46, 196, 182, 0.25)),
+        url("../assets/img/enkerl/hero.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+header.masthead .masthead-subheading,
+header.masthead .masthead-heading {
+    color: #fff;
+    text-shadow: 0 2px 12px rgba(58, 53, 47, 0.45);
+}
+header.masthead .masthead-heading {
+    font-size: 3rem;
+    line-height: 1.1;
+}
+header.masthead .masthead-text {
+    max-width: 720px;
+    margin: 0 auto 2rem;
+    font-size: 1.15rem;
+    color: #fff;
+    text-shadow: 0 1px 8px rgba(58, 53, 47, 0.55);
+}
+@media (min-width: 768px) {
+    header.masthead .masthead-heading {
+        font-size: 4.25rem;
+        line-height: 1.05;
+    }
+}
+
+/* =====================================================================
+   SERVICES
+   ===================================================================== */
+#services .fa-stack .fa-circle {
+    color: var(--enkerl-primary);
+}
+#services .col-lg-4:nth-child(2) .fa-circle,
+#services .col-lg-4:nth-child(5) .fa-circle {
+    color: var(--enkerl-secondary);
+}
+#services .col-lg-4:nth-child(3) .fa-circle,
+#services .col-lg-4:nth-child(6) .fa-circle {
+    color: var(--enkerl-coral);
+}
+.services-note {
+    margin-top: 2.5rem;
+    padding: 1rem 1.5rem;
+    background: var(--enkerl-cream);
+    border-radius: 16px;
+    color: #6f675c;
+    font-size: 0.98rem;
+}
+
+/* =====================================================================
+   TRUST BADGES
+   ===================================================================== */
+.trust-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    height: 100%;
+    padding: 0.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--enkerl-ink);
+}
+.trust-badge i {
+    font-size: 1.8rem;
+    color: var(--enkerl-secondary);
+}
+
+/* =====================================================================
+   PORTFOLIO TILES  -  warm overlay + soft zoom on hover
+   ===================================================================== */
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: linear-gradient(135deg, rgba(255, 159, 28, 0.85), rgba(46, 196, 182, 0.8));
+}
+#portfolio .portfolio-item img {
+    transition: transform 0.45s ease;
+}
+#portfolio .portfolio-item:hover img {
+    transform: scale(1.05);
+}
+#portfolio .portfolio-item .portfolio-link {
+    overflow: hidden;
+    border-radius: 14px 14px 0 0;
+}
+#portfolio .portfolio-item .portfolio-caption {
+    border-radius: 0 0 14px 14px;
+    box-shadow: 0 12px 28px rgba(58, 53, 47, 0.08);
+}
+.portfolio-modal .modal-content h2 {
+    color: var(--enkerl-ink);
+}
+
+/* =====================================================================
+   TIMELINE  -  amber markers, teal final CTA
+   ===================================================================== */
+.timeline > li .timeline-image {
+    background-color: var(--enkerl-primary);
+    border-color: var(--enkerl-cream);
+    overflow: hidden;
+}
+.timeline > li .timeline-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.timeline > li .timeline-image.timeline-cta {
+    background-color: var(--enkerl-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timeline > li .timeline-image.timeline-cta a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.timeline > li .timeline-image.timeline-cta h4 {
+    color: #fff;
+    margin: 0;
+}
+.timeline .timeline-heading h4 {
+    color: var(--enkerl-ink);
+}
+
+/* =====================================================================
+   COST CARDS  (former team section)
+   ===================================================================== */
+.cost-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 2.25rem 1.75rem;
+    height: 100%;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(58, 53, 47, 0.08);
+}
+.cost-icon {
+    width: 84px;
+    height: 84px;
+    margin: 0 auto 1.25rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #fff;
+    background: linear-gradient(135deg, var(--enkerl-primary), var(--enkerl-primary-dark));
+}
+.cost-card:nth-child(1) .cost-icon { /* placeholder if needed */ }
+.col-lg-4:nth-child(2) .cost-icon {
+    background: linear-gradient(135deg, var(--enkerl-secondary), #23a89c);
+}
+.col-lg-4:nth-child(3) .cost-icon {
+    background: linear-gradient(135deg, var(--enkerl-coral), #e8513f);
+}
+.cost-card h4 {
+    color: var(--enkerl-ink);
+    margin-bottom: 0.75rem;
+}
+.cost-note {
+    margin-top: 2.5rem;
+    font-size: 1.1rem;
+    color: var(--enkerl-ink);
+}
+.cost-note strong {
+    color: var(--enkerl-primary-dark);
+}
+
+/* =====================================================================
+   RECRUITING BAND
+   ===================================================================== */
+.recruit-img {
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0 16px 40px rgba(58, 53, 47, 0.15);
+}
+.lead-text {
+    font-size: 1.15rem;
+    line-height: 1.7;
+}
+
+/* =====================================================================
+   CONTACT  -  warm/light, NOT the dark Agency map section
+   ===================================================================== */
+section#contact {
+    background-color: #fff;
+    background-image: none;
+}
+section#contact .section-heading {
+    color: var(--enkerl-ink);
+}
+section#contact form .form-label {
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+    color: var(--enkerl-ink);
+}
+section#contact form .form-group {
+    margin-bottom: 1.25rem;
+}
+section#contact form input.form-control,
+section#contact form textarea.form-control {
+    padding: 0.9rem 1rem;
+    border-radius: 12px;
+    border: 1px solid #e4ddd0;
+    background: var(--enkerl-cream);
+}
+section#contact form .form-control:focus {
+    border-color: var(--enkerl-primary);
+    box-shadow: 0 0 0 0.2rem rgba(255, 159, 28, 0.2);
+}
+section#contact .form-check-label {
+    font-size: 0.95rem;
+}
+.contact-success {
+    color: var(--enkerl-secondary);
+    font-size: 1.1rem;
+}
+.contact-info {
+    background: var(--enkerl-cream);
+    border-radius: 18px;
+    padding: 2rem;
+    height: 100%;
+}
+.contact-info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.75rem;
+}
+.contact-info-item:last-child {
+    margin-bottom: 0;
+}
+.contact-info-item i {
+    font-size: 1.25rem;
+    color: #fff;
+    background: var(--enkerl-primary);
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-info-item h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+    color: var(--enkerl-ink);
+}
+.contact-info-item p {
+    margin-bottom: 0;
+}
+
+/* =====================================================================
+   FOOTER
+   ===================================================================== */
+.footer {
+    background: var(--enkerl-ink);
+    color: #fff;
+}
+.footer .link-footer {
+    color: #fff;
+}
+.footer .link-footer:hover {
+    color: var(--enkerl-primary);
+}
+.footer-credit {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+/* =====================================================================
+   LEGAL PAGES (impressum / datenschutz) shared container
+   ===================================================================== */
+.legal-page {
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+}
+.legal-page h1 {
+    color: var(--enkerl-ink);
+    margin-bottom: 1.5rem;
+}
+.legal-page h3 {
+    color: var(--enkerl-primary-dark);
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+/* =====================================================================
+   REVEAL-ON-SCROLL  (the one documented animation)
+   ===================================================================== */
+.reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.45s ease-out, transform 0.45s ease-out;
+    will-change: opacity, transform;
+}
+.reveal.is-visible {
+    opacity: 1;
+    transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .reveal {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
+    #portfolio .portfolio-item img,
+    #portfolio .portfolio-item:hover img {
+        transition: none !important;
+        transform: none !important;
+    }
+}
