@@ -1,6 +1,6 @@
 # G+H. Helfer:innen finden, prüfen & schulen
 
-Wie Enkerl aus jungen Bewerber:innen verlässliche, geprüfte Bezugspersonen macht: erst ein sauberer Auswahl- und Prüfprozess (Teil G), dann ein verpflichtendes Schulungskonzept (Teil H). Beides zahlt direkt auf die Markenversprechen „geprüfte Helfer:innen", „feste Bezugsperson" und „faire Festanstellung" ein.
+Wie Enkerl aus jungen Bewerber:innen verlässliche, geprüfte Bezugspersonen macht: erst ein sauberer Auswahl- und Prüfprozess (Teil G), dann ein verpflichtendes Schulungskonzept (Teil H). Beides zahlt direkt auf die Markenversprechen „geprüfte Helfer:innen", „feste Bezugsperson" und „faire, flexible Anstellung" ein.
 
 *Entwurf des Enkerl-Beraterteams — ersetzt keine Rechts-, Steuer-, Versicherungs- oder Förderberatung. Mit ⚠️ markierte Punkte vor Umsetzung fachlich prüfen lassen.*
 
@@ -21,7 +21,7 @@ Leitgedanke: **Vertrauen ist das Produkt.** Wir lassen junge Menschen in die Woh
 ---
 
 ### Schritt 1 — Bewerbung
-- **Ziel:** ausreichend qualifizierte Kandidat:innen gewinnen, die zur Botschaft „Der Nebenjob mit Sinn — flexible Stunden, faire Bezahlung, Festanstellung" passen.
+- **Ziel:** ausreichend qualifizierte Kandidat:innen gewinnen, die zur Botschaft „Der Nebenjob mit Sinn — du wählst deine Dienstzeiten selbst, faire Bezahlung, angestellt (nicht selbstständig)" passen. Wichtig: Trotz selbst gewählter, flexibler Dienstzeiten betreut jede:r Helfer:in als **feste Bezugsperson** stets dieselben Senior:innen — wir matchen die Verfügbarkeiten so, dass die Zuordnung stabil bleibt.
 - **Verantwortlich:** Recruiting/HR.
 - **Kanäle:**
   - **Unis & FHs Wien:** Jobportale (z. B. Career Center), Schwarze Bretter, Fachrichtungen mit Sozialbezug (Soziale Arbeit, Pflege/Gesundheit, Psychologie, Pädagogik, Medizin) — aber bewusst breit, da Empathie kein Studienfach ist.
@@ -138,7 +138,8 @@ Leitgedanke: **Vertrauen ist das Produkt.** Wir lassen junge Menschen in die Woh
 - Nicht zu klärende Identität.
 
 ### Beschäftigung, Probezeit & Vertragsform
-- **Festanstellung** (echtes Dienstverhältnis) ist Markenkern — kein Schein-Werkvertrag.
+- **Flexible (geringfügige) Anstellung** (echtes Dienstverhältnis) ist Markenkern — kein Schein-Werkvertrag, keine Selbstständigkeit. Helfer:innen sind echt **angestellt** (ASVG/SV, gesetzliche Unfallversicherung, Dienstgeberhaftung), wählen aber ihre **Dienstzeiten flexibel selbst** — keine feste Vollanstellung.
+- **Feste Bezugsperson trotz flexibler Zeiten:** Die flexible Zeiteinteilung findet **innerhalb einer stabilen Zuordnung** Helfer:in↔Kund:in statt. Wir matchen Verfügbarkeiten so, dass jede:r Senior:in immer **dieselbe** Helfer:in erhält — das „feste Bezugsperson"-Versprechen bleibt voll erhalten.
 - **Onboarding-Buddy/Mentoring:** jede:r neue Helfer:in wird einer erfahrenen Bezugsperson zugeordnet; begleitete erste Einsätze, Ansprechperson für Fragen.
 
 > ⚠️ ZU PRÜFEN (Arbeitsrecht/KV — hohe Priorität): **Anzuwendender Kollektivvertrag und Mindestlohn/Mindestgehalt** für diese Tätigkeit (z. B. KV für personenbezogene/soziale Dienstleistungen — welcher genau?), **Probezeit** und zulässige **Befristung**, Einstufung **geringfügig vs. Teilzeit** (Geringfügigkeitsgrenze, SV-Pflicht, Stundenlimits), **Studierende** (Auswirkungen auf Familienbeihilfe, Mitversicherung, AMS), **Minderjährige** (Kinder- und Jugendlichen-Beschäftigung: Arbeitszeit-, Nacht-, Wegzeit-Beschränkungen), Arbeitszeit/Ruhezeiten, Wegzeiten/Fahrtkostenersatz. Alles mit **Steuerberater:in, WKO, ÖGK/SVS und AK** klären. Bezug zu Personal-/Kostenkalkulation in den entsprechenden Plan-Teilen.
