@@ -51,7 +51,7 @@ Hier entscheidet sich, ob Enkerl auf der sicheren Seite bleibt. Jede dieser Gren
 |---|---|---|
 | An die Einnahme **erinnern** („Es ist 12 Uhr, Ihre Tablette") | ✅ wahrscheinlich zulässig | Reine Erinnerung/Motivation, keine Übernahme der Verabreichung |
 | Wasser/Glas **reichen**, Packung **hinstellen** | ✅ / ⚠️ | Unterstützung beim selbstständigen Einnehmen; keine Kontrolle der „richtigen" Dosis |
-| Medikamente **richten/dosieren** (Dispenser befüllen) | ⚠️ → eher ⛔ | Sortieren/Dosieren wird heikel; Verwechslungs-/Haftungsrisiko hoch |
+| Medikamente **richten/dosieren** (Dispenser befüllen) |  ⛔ | Sortieren/Dosieren wird heikel; Verwechslungs-/Haftungsrisiko hoch |
 | Medikamente **verabreichen** (eingeben, Tropfen zählen, spritzen, Augentropfen, Pflaster wechseln) | ⛔ | Pflegerisch/ärztlich; nur über zulässige Laiendelegation im Einzelfall |
 
 > ⚠️ ZU PRÜFEN: Wo genau die Grenze zwischen erlaubter „Erinnerung/Unterstützung beim Einnehmen" und unzulässiger „Verabreichung/Dosierung" verläuft, ist mit Pflegefachkraft + Anwält:in zu klären. Empfehlung: Enkerl-Helfer:innen **erinnern** und **reichen** maximal selbst verpackte/vorgerichtete Medikamente; **kein Richten, kein Dosieren, kein Verabreichen** – außer es liegt eine ausdrückliche, schriftliche, einzelfallbezogene Delegation vor (und selbst dann nur nach Grundsatzentscheidung, siehe 1.).
