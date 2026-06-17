@@ -7,7 +7,7 @@ Diese Fragen stellen sich Angehörige, bevor sie Enkerl in das Zuhause eines gel
 ---
 
 ### Warum kann ich euch vertrauen?
-Weil wir Vertrauen nicht behaupten, sondern aufbauen: feste Bezugsperson statt wechselnder Gesichter, geprüfte und fest angestellte Helfer:innen, Dokumentation nach jedem Einsatz und eine erreichbare Ansprechperson bei Problemen. Wie wir auswählen, prüfen und absichern, steht offen in unserem Kapitel [Vertrauen](03-vertrauen.md). Und: Sie sind nie gebunden – wenn etwas nicht passt, können Sie jederzeit beenden.
+Weil wir Vertrauen nicht behaupten, sondern aufbauen: feste Bezugsperson statt wechselnder Gesichter, geprüfte und angestellte Helfer:innen, Dokumentation nach jedem Einsatz und eine erreichbare Ansprechperson bei Problemen. Wie wir auswählen, prüfen und absichern, steht offen in unserem Kapitel [Vertrauen](03-vertrauen.md). Und: Sie sind nie gebunden – wenn etwas nicht passt, können Sie jederzeit beenden.
 
 ### Wer kommt zu meiner Oma?
 Eine **feste Bezugsperson**, die Sie und Ihre Oma vorab kennenlernen – mit Namen und Foto, bevor der erste Einsatz startet. Diese Person bleibt möglichst dieselbe, damit echte Vertrautheit entsteht. Muss sie einmal vertreten werden, kündigen wir die Vertretung **immer vorher** an.

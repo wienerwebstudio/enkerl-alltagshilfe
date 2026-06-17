@@ -113,7 +113,7 @@ Diese Liste gehört in den **Helfer-Verhaltenskodex** und in die Einschulung. Si
 
 - Enkerl positioniert sich klar als **Alltagshilfe / Hausbetreuung / niederschwellige Personenbetreuung** – **nicht** als Pflegedienst.
 - Wer **Pflege** braucht, wird an geprüfte Partner (mobile Pflegedienste, Hauskrankenpflege) verwiesen → mögliche Kooperations-/Empfehlungsstruktur (siehe Geschäftsmodell-Kapitel des Teams).
-- Die saubere Abgrenzung ist **Verkaufsargument** (Klarheit, Sicherheit, faire Festanstellung) **und** Risikoschutz.
+- Die saubere Abgrenzung ist **Verkaufsargument** (Klarheit, Sicherheit, faire, flexible Anstellung) **und** Risikoschutz.
 
 ---
 

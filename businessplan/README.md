@@ -61,7 +61,7 @@ Diese Punkte ziehen sich durch den ganzen Plan und entscheiden über Tragfähigk
 2. **„Keine Pflege" ↔ Finanzierung über Pflegegeld/Ersatzpflege/Steuerabsetzbarkeit.**
    Die Website bewirbt Finanzierung über Pflegegeld, Ersatz-/Verhinderungspflege und steuerliche Absetzbarkeit. Diese setzen i. d. R. **Pflegebedürftigkeit voraus** (Verhinderungspflege üblicherweise ab **Pflegestufe 3**, Absetzbarkeit setzt Pflegebedürftigkeit voraus). Pauschale Aussagen können **irreführend (UWG)** sein und stehen in Spannung zur Positionierung „keine Pflege". Aussagen vor Bewerbung **steuerlich/rechtlich prüfen und ggf. umformulieren.** → siehe [06](06-recht-checkliste.md), [11](11-geschaeftsmodell-preise.md), [17](17-offene-fragen.md).
 
-3. **Marge: € 29/Stunde bei Festanstellung ist strukturell knapp.**
+3. **Marge: € 29/Stunde bei angestellten Helfer:innen ist strukturell knapp.**
    In der Modellrechnung bleibt bei € 29/h nur ein sehr dünner Deckungsbeitrag pro Stunde. Profitabilität entsteht **über hohe Auslastung und kurze Wegzeiten (Grätzl-Logik)**, nicht über bloße Masse. Der einschlägige **Kollektivvertrag/Lohn** und die **Lohnnebenkosten** tragen die ganze Kalkulation und sind zu verifizieren. → siehe [11](11-geschaeftsmodell-preise.md).
 
 4. **Datenschutz mit Gesundheitsdaten.**
@@ -77,7 +77,7 @@ Diese Punkte ziehen sich durch den ganzen Plan und entscheiden über Tragfähigk
 Die vollständige, gegliederte Liste steht in [17 – Kritische offene Fragen](17-offene-fragen.md); die Anlaufstellen mit konkreten Fragen in [14 – Beratungsstellen](14-beratungsstellen.md). Kurzüberblick:
 
 - [ ] **Gewerbe-Einstufung** final klären (WKO Wien, MA 63, Anwält:in).
-- [ ] **Arbeitsrecht & Sozialversicherung** der Helfer:innen: Kollektivvertrag, Lohn, geringfügig vs. Teilzeit, Studierende/Minderjährige (AK, ÖGK, SVS, Steuerberater:in).
+- [ ] **Arbeitsrecht & Sozialversicherung** der Helfer:innen: Kollektivvertrag, Lohn, geringfügige Anstellung (Hauptpfad) vs. Teilzeit, flexible selbst gewählte Dienstzeiten, Studierende/Minderjährige (AK, ÖGK, SVS, Steuerberater:in).
 - [ ] **Finanzierungs-/Steueraussagen** prüfen und werberechtlich absichern (Steuerberater:in, FSW, Sozialministeriumservice; UWG).
 - [ ] **Datenschutz**: DSFA, Einwilligungen, Verarbeitungsverzeichnis, AV-Verträge (Datenschutzbehörde, Datenschutzexpert:in).
 - [ ] **Strafregisterbescheinigung**: zulässige Art („Pflege und Betreuung"?), Rechtsgrundlage, DSGVO-konforme Speicherung.
@@ -90,6 +90,6 @@ Die vollständige, gegliederte Liste steht in [17 – Kritische offene Fragen](1
 
 ## Verhältnis zur bestehenden Website
 
-Die öffentliche Website (`index.html`, `impressum.html`, `datenschutz.html`) legt bereits fest: Marke **Enkerl**, **Festanstellung**, Richtpreis **€ 29/Std.**, Finanzierung über **Pflegegeld**, **keine medizinische Pflege**. Dieser Businessplan baut darauf auf — markiert aber die Stellen, an denen die Website-Aussagen vor breiter Bewerbung **fachlich abgesichert oder präzisiert** werden müssen (v. a. Finanzierungs-/Steueraussagen, Gewerbe-Angabe, operativer Datenschutz über das Kontaktformular hinaus).
+Die öffentliche Website (`index.html`, `impressum.html`, `datenschutz.html`) legt bereits fest: Marke **Enkerl**, **angestellte Helfer:innen (flexible, geringfügige Anstellung)**, Richtpreis **€ 29/Std.**, Finanzierung über **Pflegegeld**, **keine medizinische Pflege**. Dieser Businessplan baut darauf auf — markiert aber die Stellen, an denen die Website-Aussagen vor breiter Bewerbung **fachlich abgesichert oder präzisiert** werden müssen (v. a. Finanzierungs-/Steueraussagen, Gewerbe-Angabe, operativer Datenschutz über das Kontaktformular hinaus).
 
 **Nächster konkreter Schritt:** [18 – 30-Tage-Aktionsplan](18-30-tage-plan.md).

@@ -8,7 +8,7 @@ Diese Executive Summary fasst zusammen, was Enkerl ist, für wen, wie das Gesch�
 
 ## In einem Satz
 
-**Enkerl ist eine Wiener Alltagshilfe, bei der junge, geprüfte und fest angestellte Helfer:innen ältere Menschen zu Hause unterstützen – herzlich „wie ein:e Enkel:in" –, damit sie länger selbstständig in den eigenen vier Wänden leben können.**
+**Enkerl ist eine Wiener Alltagshilfe, bei der junge, geprüfte und angestellte Helfer:innen ältere Menschen zu Hause unterstützen – herzlich „wie ein:e Enkel:in" –, damit sie länger selbstständig in den eigenen vier Wänden leben können.**
 
 ## Was Enkerl macht
 
@@ -21,7 +21,7 @@ Enkerl übernimmt die wiederkehrenden Aufgaben des Alltags, die mit dem Alter sc
 - **Gesellschaft** – Gespräche, Spiele, Vorlesen, Zeit zum Zuhören
 - **Organisation** – Termine, Post, kleine Alltagshilfen
 
-Kernidee ist nicht die einzelne Tätigkeit, sondern die **verlässliche Beziehung**: eine feste Bezugsperson, die regelmäßig kommt, die Familie nach jedem Besuch kurz informiert und so Vertrauen aufbaut. Details zur Leistungsabgrenzung in der [Leistungsabgrenzung](01-leistungsabgrenzung.md).
+Kernidee ist nicht die einzelne Tätigkeit, sondern die **verlässliche Beziehung**: eine feste Bezugsperson, die regelmäßig kommt, die Familie nach jedem Besuch kurz informiert und so Vertrauen aufbaut. Die Helfer:innen wählen ihre Dienstzeiten flexibel selbst – Enkerl matcht die Verfügbarkeiten aber so, dass jede:r Senior:in trotzdem **immer dieselbe** Bezugsperson erhält. Details zur Leistungsabgrenzung in der [Leistungsabgrenzung](01-leistungsabgrenzung.md).
 
 ## Was Enkerl ausdrücklich NICHT macht
 
@@ -33,14 +33,14 @@ Enkerl positioniert sich zwischen „professioneller, aber unpersönlicher Diens
 
 1. **Feste Bezugsperson** statt wechselnder Gesichter
 2. **Geprüfte Helfer:innen** (Auswahl, Leumund, Einschulung)
-3. **Faire Festanstellung** statt prekärer Vermittlung – auch ein Qualitäts- und Vertrauensargument
+3. **Faire, flexible Anstellung** statt prekärer Vermittlung – echtes Dienstverhältnis (nicht selbstständig), auch ein Qualitäts- und Vertrauensargument
 4. **Update nach jedem Besuch** – Transparenz für die (oft entfernt wohnende) Familie
 
-Der Markenkern „von Jung für Alt" ist zugleich Differenzierung (Generationen-Brücke, Lebensfreude, Digitalkompetenz der Helfer:innen) und Recruiting-Versprechen („Nebenjob mit Sinn").
+Der Markenkern „von Jung für Alt" ist zugleich Differenzierung (Generationen-Brücke, Lebensfreude, Digitalkompetenz der Helfer:innen) und Recruiting-Versprechen („Nebenjob mit Sinn — du wählst deine Dienstzeiten selbst, faire Bezahlung, angestellt (nicht selbstständig)").
 
 ## Geschäftsmodell in einem Absatz
 
-Enkerl beschäftigt Helfer:innen in **echter Festanstellung** (nicht selbstständig, keine Vermittlungsagentur) und verrechnet Kund:innen einen transparenten **Richtwert von rund € 29/Stunde** im Raum **Wien**. Eingestiegen wird über ein kostenloses Erstgespräch; danach folgen regelmäßige Einsätze nach Plan mit einer festen Helfer:in. Das Anstellungsmodell ist bewusst gewählt (Qualität, Vertrauen, Rechtssicherheit gegenüber Scheinselbstständigkeit), erzeugt aber eine **enge Marge**, weil Bruttolohn, Lohnnebenkosten und nicht-verrechenbare Zeit (Wegzeiten, Doku, Ausfälle) gegen den Stundenpreis laufen. Preismodelle, Margenlogik und Skalierungsszenarien sind im Detail im [Geschäftsmodell & Preise](11-geschaeftsmodell-preise.md) ausgearbeitet.
+Enkerl beschäftigt Helfer:innen in **echter Anstellung** – als flexible (geringfügige) Anstellung, bei der die Helfer:innen ihre Dienstzeiten selbst wählen, aber als echtes Dienstverhältnis (nicht selbstständig, keine Vermittlungsagentur) – und verrechnet Kund:innen einen transparenten **Richtwert von rund € 29/Stunde** im Raum **Wien**. Eingestiegen wird über ein kostenloses Erstgespräch; danach folgen regelmäßige Einsätze nach Plan mit einer festen Helfer:in – die flexible Zeiteinteilung findet **innerhalb einer stabilen Zuordnung** Helfer:in↔Kund:in statt, sodass dieselbe Bezugsperson dieselbe Person betreut. Das flexible Anstellungsmodell ist bewusst gewählt (Qualität, Vertrauen, Rechtssicherheit gegenüber Scheinselbstständigkeit), erzeugt aber eine **enge Marge**, weil Bruttolohn, Lohnnebenkosten und nicht-verrechenbare Zeit (Wegzeiten, Doku, Ausfälle) gegen den Stundenpreis laufen. Preismodelle, Margenlogik und Skalierungsszenarien sind im Detail im [Geschäftsmodell & Preise](11-geschaeftsmodell-preise.md) ausgearbeitet.
 
 ## Marktchance (qualitativ)
 
@@ -52,7 +52,7 @@ Wien altert – wie ganz Österreich. Der Anteil älterer Menschen an der Bevöl
 
 | # | Risiko | Kern des Problems | Vertiefung |
 |---|--------|-------------------|-----------|
-| 1 | **Marge vs. Festanstellung** | € 29/h muss Bruttolohn + ~30 %+ Lohnnebenkosten + nicht-verrechenbare Zeit + Overhead tragen → strukturell knapp. | [Geschäftsmodell](11-geschaeftsmodell-preise.md) |
+| 1 | **Marge vs. Anstellung** | € 29/h muss Bruttolohn + ~30 %+ Lohnnebenkosten + nicht-verrechenbare Zeit + Overhead tragen → strukturell knapp. | [Geschäftsmodell](11-geschaeftsmodell-preise.md) |
 | 2 | **„Keine Pflege" vs. Pflege-Finanzierung** | Werbung mit Pflegegeld/Ersatzpflege rückt nahe an Betreuung/Pflege; Spannung Marketing ↔ Gewerberecht ↔ Irreführungsverbot (UWG). | [Recht](06-recht-checkliste.md), [Leistungsabgrenzung](01-leistungsabgrenzung.md) |
 | 3 | **Vertrauensrisiko bei vulnerabler Zielgruppe** | Wohnungsschlüssel, Bargeld, evtl. Demenz, junge Helfer:innen → Missbrauchs-/Schadensrisiko, Reputations-Totalschaden bei einem Vorfall. | [Vertrauen](03-vertrauen.md), [Risiken](08-risiken-worstcase.md) |
 | 4 | **Gewerbe- & Arbeitsrecht** | Korrekte Gewerbe-Einstufung bei **angestellten** Helfer:innen; KV/Mindestlohn; ggf. Grenze zur 24-Std.-Betreuung. | [Recht](06-recht-checkliste.md) |
@@ -67,5 +67,7 @@ Wien altert – wie ganz Österreich. Der Anteil älterer Menschen an der Bevöl
 > ⚠️ ZU PRÜFEN: Finanzierungsnarrativ (Pflegegeld, Ersatz-/Verhinderungspflege, steuerliche Absetzbarkeit als außergewöhnliche Belastung) – Förder- und Steueraussagen vor Marketing-Einsatz verifizieren bei **WKO Gründerservice**, **SVS/ÖGK**, **Steuerberater:in**, **Fonds Soziales Wien**.
 
 > ⚠️ ZU PRÜFEN: Tragfähigkeit des € 29/h-Preises gegenüber KV-Lohn + Lohnnebenkosten + nicht-verrechenbarer Zeit (Margendetails in [11-geschaeftsmodell-preise.md](11-geschaeftsmodell-preise.md)).
+
+> ⚠️ ZU PRÜFEN: Auswirkungen der flexiblen (geringfügigen) Anstellung auf bestehende Annahmen (z. B. Stunden pro Helfer:in, Geringfügigkeitsgrenze, Zahl benötigter Helfer:innen, Planbarkeit der Auslastung) – bestehende Kalkulation darauf abstimmen (AK, ÖGK, SVS, Steuerberater:in; Margendetails in [11-geschaeftsmodell-preise.md](11-geschaeftsmodell-preise.md)).
 
 > ⚠️ ZU PRÜFEN: Vereinbarkeit von Marke/Claim („Pflegegeld", „Betreuung") mit Gewerberecht und Irreführungsverbot (UWG) – juristische Prüfung.

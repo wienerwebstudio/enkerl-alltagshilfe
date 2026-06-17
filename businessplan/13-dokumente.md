@@ -17,7 +17,7 @@ Dieses Kapitel listet **alle** Dokumente, die Enkerl für einen sauberen, rechts
 | Einwilligungserklärung (inkl. Gesundheitsdaten) | Rechtsgrundlage Art.-9-Daten, Angehörigen-Info | Senior:in / Vertretung | ⚠️ Anwalt |
 | Aufnahmeformular Senior:in | Bedarf, Gesundheit, Notfall, Wünsche erfassen | intern (vom Kunden befüllt) | Anwalt (Datenschutz) |
 | Angehörigenformular | Kontakt, Vertretung, Vollmacht, Eskalation | Angehörige | Anwalt |
-| Helfer-Dienstvertrag | Echtes Dienstverhältnis, KV-konform | Helfer:in | ⚠️ Anwalt (Arbeitsrecht) |
+| Helfer-Dienstvertrag | Echtes Dienstverhältnis (geringfügig/flexibel), KV-konform | Helfer:in | ⚠️ Anwalt (Arbeitsrecht) |
 | Helfer-Verhaltenskodex | Verhalten, Grenzen, „machen wir NICHT" | Helfer:in | Anwalt + intern |
 | Verschwiegenheits-/Datenschutz-Vereinbarung Helfer | Geheimhaltung, Datenschutzpflichten | Helfer:in | ⚠️ Anwalt |
 | Schlüsselübergabeprotokoll | Nachweis Schlüsselverbleib | Kund:in + Helfer:in | Anwalt + Versicherer |
@@ -116,8 +116,8 @@ Dieses Kapitel listet **alle** Dokumente, die Enkerl für einen sauberen, rechts
 ## D. Helfer:innen-Dokumente
 
 ### 10. Helfer-Dienstvertrag
-- **Zweck:** Rechtssicheres **echtes Dienstverhältnis** (Festanstellung), KV-konform.
-- **Wichtigste Inhalte:** Tätigkeit/Einstufung nach **anwendbarem KV**; Entgelt; Arbeitszeit inkl. **Wegzeiten**; Einsatzort(e) mobil; Probezeit; Verschwiegenheit; Verhaltenskodex als Vertragsbestandteil; **Strafregisterbescheinigung Pflege und Betreuung** als Einstellungsvoraussetzung; Kfz-/Fahrregelung; Beendigung.
+- **Zweck:** Rechtssicheres **echtes Dienstverhältnis** als **geringfügige, flexible Anstellung** (keine Vollanstellung, keine Selbstständigkeit), KV-konform.
+- **Wichtigste Inhalte:** Tätigkeit/Einstufung nach **anwendbarem KV**; Entgelt; **flexible, von der Helfer:in selbst gewählte Dienstzeiten bei stabiler Zuordnung zur festen Bezugsperson**; Arbeitszeit inkl. **Wegzeiten**; Einsatzort(e) mobil; Probezeit; Verschwiegenheit; Verhaltenskodex als Vertragsbestandteil; **Strafregisterbescheinigung Pflege und Betreuung** als Einstellungsvoraussetzung; Kfz-/Fahrregelung; Beendigung.
 - **Erstellt/prüft:** **⚠️ Anwalt (Arbeitsrecht)** + KV-Abgleich (WKO/AK). Scheinselbstständigkeit vermeiden (siehe [Rechtliche Checkliste](06-recht-checkliste.md), Punkt 2).
 
 ### 11. Helfer-Verhaltenskodex
