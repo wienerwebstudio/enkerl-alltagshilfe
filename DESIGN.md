@@ -21,11 +21,13 @@ Es gibt genau **einen** Akzent (Marille) und **eine** dunkle Fläche (Moos). Kei
 - **Fraunces** (Display-Serif, variabel) für Überschriften und große Zahlen. Gewicht 500, enge Zeilenhöhe (1,02–1,1), leicht negativer Buchstabenabstand.
 - **Atkinson Hyperlegible Next** für alles andere. Für Senior:innen entwickelt: Grundgröße 18 px, Zeilenhöhe 1,6, Zeilenlänge unter 70 Zeichen.
 - Zwei Familien, klarer Kontrast (Serif vs. Sans, groß vs. normal). Keine Versalien-Labels, keine kursiven Serif-Akzentwörter in Sans-Überschriften.
+- Keine Kicker oder Labels über Überschriften („Leistungen", „Kontakt"). Die Überschrift trägt den Abschnitt allein.
 
 ## Layout
 
 - Links ausgerichtet, asymmetrisch. Nur der Kosten-Block ist zentriert.
-- Struktur durch **Haarlinien**, nicht durch Karten mit Schatten. Keine Icon-Kacheln in Dreierreihen.
+- Struktur durch **Haarlinien**, nicht durch Karten mit Schatten. Keine Icon-Kacheln in Dreierreihen, keine Pills/Badges, keine Akkordeons (Fragen stehen offen da), keine großen Ziffern 1-2-3 (der Ablauf hat Zeitmarken: Montag, Donnerstag, die Woche darauf).
+- Header solide auf Papier, kein Glas-/Blur-Effekt. Fotos fast eckig (2 px), Buttons knapp gerundet (4 px).
 - Wiedererkennbares Element: **Bogenfenster-Bildmaske** (`.arch`) – Anleihe an Wiener Altbaufenster. Nur für Fotos, maximal ein Bogen pro Abschnitt.
 - Zweites Element: der **Rückmeldungs-Zettel** (`.zettel`) – ein konkretes Beispiel statt abstrakter Versprechen.
 

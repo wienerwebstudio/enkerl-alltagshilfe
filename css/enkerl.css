@@ -22,7 +22,7 @@
     --w: 1120px;
     --gutter: clamp(1rem, 4vw, 2.5rem);
     --space: clamp(4rem, 9vw, 7.5rem);
-    --radius: 6px;
+    --radius: 4px;
 }
 
 /* ---- Reset (knapp) ---- */
@@ -61,12 +61,6 @@ h1 { font-size: clamp(2.7rem, 6.2vw, 4.75rem); line-height: 1.02; letter-spacing
 h2 + p, h2 + .lead, h3 + p { margin-top: 1rem; }
 h2 { font-size: clamp(2rem, 4vw, 3.1rem); line-height: 1.08; max-width: 18ch; }
 h3 { font-size: clamp(1.45rem, 2.2vw, 1.85rem); line-height: 1.2; }
-.kicker {
-    display: block;
-    font-size: 1rem;
-    color: var(--ink-2);
-    margin-bottom: 1rem;
-}
 .lead { font-size: clamp(1.2rem, 1.6vw, 1.35rem); line-height: 1.5; }
 .muted { color: var(--ink-2); }
 .small { font-size: 0.95rem; }
@@ -86,7 +80,7 @@ h3 { font-size: clamp(1.45rem, 2.2vw, 1.85rem); line-height: 1.2; }
     width: 100%;
     aspect-ratio: 4 / 5;
     object-fit: cover;
-    border-radius: 999px 999px var(--radius) var(--radius);
+    border-radius: 999px 999px 2px 2px;
     background: var(--paper-2);
 }
 .photo {
@@ -94,7 +88,7 @@ h3 { font-size: clamp(1.45rem, 2.2vw, 1.85rem); line-height: 1.2; }
     width: 100%;
     aspect-ratio: 4 / 3;
     object-fit: cover;
-    border-radius: var(--radius);
+    border-radius: 2px;
     background: var(--paper-2);
 }
 
@@ -127,8 +121,7 @@ h3 { font-size: clamp(1.45rem, 2.2vw, 1.85rem); line-height: 1.2; }
     position: sticky;
     top: 0;
     z-index: 50;
-    background: rgba(246, 241, 233, 0.94);
-    backdrop-filter: blur(6px);
+    background: var(--paper);
     border-bottom: 1px solid var(--rule);
 }
 .site-header .wrap {
@@ -198,17 +191,13 @@ h3 { font-size: clamp(1.45rem, 2.2vw, 1.85rem); line-height: 1.2; }
     color: var(--ink-2);
 }
 .hero-facts {
-    margin-top: clamp(2.5rem, 5vw, 4rem);
+    margin: clamp(2.5rem, 5vw, 4rem) 0 0;
     padding-top: 1.25rem;
     border-top: 1px solid var(--rule);
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem 0;
     font-size: 1rem;
     color: var(--ink-2);
+    max-width: 70ch;
 }
-.hero-facts li { display: flex; align-items: center; }
-.hero-facts li + li::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: var(--marille); margin-inline: 0.9rem; flex: none; }
 
 /* Der eine orchestrierte Moment: Hero blendet beim Laden ein. */
 @media (prefers-reduced-motion: no-preference) {
@@ -225,10 +214,6 @@ h3 { font-size: clamp(1.45rem, 2.2vw, 1.85rem); line-height: 1.2; }
 @media (max-width: 860px) {
     .hero .hero-grid { grid-template-columns: 1fr; }
     .hero-figure { max-width: 420px; }
-}
-@media (max-width: 640px) {
-    .hero-facts { flex-direction: column; gap: 0.45rem; }
-    .hero-facts li::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: var(--marille); margin: 0 0.75rem 0 0; flex: none; }
 }
 
 /* =====================================================================
@@ -259,7 +244,6 @@ h3 { font-size: clamp(1.45rem, 2.2vw, 1.85rem); line-height: 1.2; }
 .menu li:last-child { padding-bottom: 0; }
 .menu strong { font-weight: 700; font-size: 1.1rem; }
 .menu span { color: var(--ink-2); }
-.tag { display: inline-block; font-family: var(--font-body); font-size: 0.8rem; font-weight: 700; letter-spacing: 0; color: var(--marille-dark); border: 1px solid currentColor; border-radius: 999px; padding: 0.05rem 0.55rem; margin-left: 0.4rem; vertical-align: middle; position: relative; top: -0.15em; }
 .not-list {
     margin-top: clamp(2rem, 4vw, 3rem);
     display: grid;
@@ -317,15 +301,12 @@ h3 { font-size: clamp(1.45rem, 2.2vw, 1.85rem); line-height: 1.2; }
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 0 2rem;
 }
-.steps li { border-top: 2px solid var(--ink); padding-top: 1.1rem; }
-.steps .num {
-    font-family: var(--font-display);
-    font-weight: 500;
-    font-size: 3.4rem;
-    line-height: 1;
-    color: var(--marille);
+.steps li { border-top: 1px solid var(--ink); padding-top: 1rem; }
+.steps .when {
     display: block;
-    margin-bottom: 0.9rem;
+    font-size: 1rem;
+    color: var(--marille-dark);
+    margin-bottom: 1.6rem;
 }
 .steps h3 { font-size: 1.4rem; margin-bottom: 0.5rem; }
 .steps p { margin: 0; color: var(--ink-2); font-size: 1.02rem; }
@@ -390,34 +371,13 @@ h3 { font-size: clamp(1.45rem, 2.2vw, 1.85rem); line-height: 1.2; }
 .price .fine { font-size: 1rem; color: var(--ink-2); }
 
 /* =====================================================================
-   FAQ  –  native <details>
+   FAQ  –  offen gelistet, kein Akkordeon
    ===================================================================== */
 .faq .wrap { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: clamp(2rem, 5vw, 5rem); }
-.faq details { border-top: 1px solid var(--rule); }
-.faq details:last-child { border-bottom: 1px solid var(--rule); }
-.faq summary {
-    cursor: pointer;
-    list-style: none;
-    padding: 1.1rem 2.5rem 1.1rem 0;
-    font-weight: 700;
-    font-size: 1.12rem;
-    position: relative;
-}
-.faq summary::-webkit-details-marker { display: none; }
-.faq summary::after {
-    content: "";
-    position: absolute;
-    right: 0.4rem;
-    top: 50%;
-    width: 0.65rem;
-    height: 0.65rem;
-    border-right: 2px solid var(--marille);
-    border-bottom: 2px solid var(--marille);
-    transform: translateY(-70%) rotate(45deg);
-    transition: transform 200ms ease;
-}
-.faq details[open] summary::after { transform: translateY(-30%) rotate(225deg); }
-.faq details p { padding-bottom: 1.2rem; color: var(--ink-2); max-width: 60ch; }
+.qa { padding: 1.4rem 0; border-top: 1px solid var(--rule); }
+.qa:last-child { border-bottom: 1px solid var(--rule); }
+.qa h3 { font-size: 1.35rem; margin-bottom: 0.5rem; }
+.qa p { margin: 0; color: var(--ink-2); max-width: 60ch; }
 @media (max-width: 860px) {
     .faq .wrap { grid-template-columns: 1fr; }
 }
@@ -433,7 +393,6 @@ h3 { font-size: clamp(1.45rem, 2.2vw, 1.85rem); line-height: 1.2; }
     align-items: center;
 }
 .recruit h2, .recruit h3 { color: var(--paper); }
-.recruit .kicker { color: rgba(246, 241, 233, 0.75); }
 .recruit p { color: rgba(246, 241, 233, 0.88); }
 .recruit .arch { max-width: 380px; }
 .recruit .perks { margin: 1.5rem 0 2rem; }
