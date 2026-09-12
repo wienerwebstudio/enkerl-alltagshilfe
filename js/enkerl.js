@@ -1,37 +1,49 @@
-/*!
- * Enkerl - reveal-on-scroll + contact form success message
- * Implements the single documented animation (see css/enkerl.css):
- * each .reveal element fades in + glides up 16px ONCE on first viewport entry.
+/*
+ * Enkerl – wenig JavaScript, bewusst:
+ *  1. Mobiles Menü auf/zu
+ *  2. Anliegen im Kontaktformular vorbelegen (Links mit data-anliegen)
+ *  3. Dankes-Hinweis nach Netlify-Redirect (?success=true)
+ * Die Hero-Animation läuft rein in CSS.
  */
-window.addEventListener('DOMContentLoaded', function () {
-    var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    var revealEls = document.querySelectorAll('.reveal');
+(function () {
+    'use strict';
 
-    if (reduceMotion || !('IntersectionObserver' in window)) {
-        // Show everything immediately, no animation.
-        revealEls.forEach(function (el) { el.classList.add('is-visible'); });
-    } else {
-        var observer = new IntersectionObserver(function (entries, obs) {
-            entries.forEach(function (entry) {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('is-visible');
-                    obs.unobserve(entry.target); // only once
-                }
+    // 1. Mobiles Menü
+    var toggle = document.querySelector('.nav-toggle');
+    var nav = document.getElementById('nav');
+    if (toggle && nav) {
+        toggle.addEventListener('click', function () {
+            var open = nav.getAttribute('data-open') === 'true';
+            nav.setAttribute('data-open', open ? 'false' : 'true');
+            toggle.setAttribute('aria-expanded', open ? 'false' : 'true');
+            toggle.textContent = open ? 'Menü' : 'Schließen';
+        });
+        nav.addEventListener('click', function (e) {
+            if (e.target.tagName === 'A' && nav.getAttribute('data-open') === 'true') {
+                toggle.click();
+            }
+        });
+    }
+
+    // 2. Anliegen vorbelegen
+    var select = document.getElementById('anliegen');
+    if (select) {
+        document.querySelectorAll('[data-anliegen]').forEach(function (link) {
+            link.addEventListener('click', function () {
+                select.value = link.getAttribute('data-anliegen');
             });
-        }, { threshold: 0.15 });
-        revealEls.forEach(function (el) { observer.observe(el); });
+        });
     }
 
-    // Friendly success message when redirected back from Netlify (?success=true)
+    // 3. Dankes-Hinweis
     if (window.location.search.indexOf('success=true') !== -1) {
-        var success = document.getElementById('submitSuccessMessage');
-        var form = document.getElementById('contactForm');
-        if (success) {
-            success.classList.remove('d-none');
-            success.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        var box = document.getElementById('form-success');
+        var form = document.getElementById('kontaktformular');
+        if (box) {
+            box.hidden = false;
+            box.setAttribute('tabindex', '-1');
+            box.focus();
         }
-        if (form) {
-            form.reset();
-        }
+        if (form) { form.reset(); }
     }
-});
+})();

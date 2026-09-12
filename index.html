@@ -1,606 +1,345 @@
 <!DOCTYPE html>
-<!--
-* Built on Start Bootstrap - Agency (https://startbootstrap.com/theme/agency) - Licensed under MIT.
-* Structure, grid and CSS base of the Agency template are kept; only content, images and colors were swapped.
--->
 <html lang="de">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Enkerl – junge, herzliche Helfer:innen unterstützen Ihre Eltern oder Großeltern zu Hause in Wien: Haushalt, Einkäufe, Begleitung und Zeit für ein gutes Gespräch. Finanzierbar über das Pflegegeld." />
-        <meta name="author" content="Enkerl" />
-        <title>Enkerl – Alltagshilfe von Jung für Alt | Wien</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <!-- Enkerl theme overrides (must load after styles.css)-->
-        <link href="css/enkerl.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top">Enkerl</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Navigation umschalten">
-                    Menü
-                    <i class="fas fa-bars ms-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">Leistungen</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Alltag</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">So geht's</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Kosten</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
-                        <li class="nav-item ms-lg-3"><a class="nav-link nav-cta" href="#contact">Kostenloses Erstgespräch</a></li>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Enkerl – Alltagshilfe von Jung für Alt | Wien</title>
+    <meta name="description" content="Enkerl: junge, angestellte und geprüfte Helfer:innen unterstützen Ihre Eltern oder Großeltern zu Hause in Wien – Einkauf, Haushalt, Kochen, Begleitung, Gesellschaft. Jetzt auch Kinderbetreuung und Tierbetreuung. Feste Bezugsperson, Rückmeldung nach jedem Besuch." />
+    <meta property="og:title" content="Enkerl – Alltagshilfe von Jung für Alt" />
+    <meta property="og:description" content="Junge, angestellte Helfer:innen für Eltern, Kinder und Haustiere in Wien. Feste Bezugsperson, Rückmeldung nach jedem Besuch." />
+    <meta property="og:image" content="assets/img/enkerl/hero.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_AT" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="assets/favicon.ico" sizes="any" />
+    <link rel="preload" href="assets/fonts/fraunces-400-600-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/fonts/atkinson-hyperlegible-next-400-700-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="css/enkerl.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="wrap">
+            <a class="brand" href="#top" aria-label="Enkerl – zur Startseite">
+                <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M18 52V30a14 14 0 0 1 28 0v22z" fill="#B5570C"/><path d="M32 18v34M18 36h28" stroke="#F6F1E9" stroke-width="3"/></svg>
+                Enkerl
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">Menü</button>
+            <nav class="nav" id="nav" aria-label="Hauptnavigation">
+                <ul>
+                    <li><a href="#leistungen">Leistungen</a></li>
+                    <li><a href="#ablauf">So geht's</a></li>
+                    <li><a href="#vertrauen">Vertrauen</a></li>
+                    <li><a href="#kosten">Kosten</a></li>
+                    <li><a href="#fragen">Fragen</a></li>
+                    <li><a href="#helfer">Helfer:in werden</a></li>
+                    <li><a class="btn" href="#kontakt">Erstgespräch</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="top">
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="wrap hero-grid">
+                <div class="hero-copy">
+                    <h1>Alltagshilfe von Jung für Alt.</h1>
+                    <p class="lead">Junge, angestellte Helfer:innen aus Wien kommen regelmäßig zu Ihren Eltern oder Großeltern: einkaufen, kochen, begleiten, zuhören. Und weil ein gutes Enkerl auch auf die Kleinen und den Hund schaut, jetzt auch für Kinder und Haustiere.</p>
+                    <div class="hero-actions">
+                        <a class="btn" href="#kontakt">Kostenloses Erstgespräch</a>
+                        <a href="#leistungen">Was wir übernehmen</a>
+                    </div>
+                </div>
+                <figure class="hero-figure">
+                    <img class="arch" src="assets/img/enkerl/hero-portrait.jpg" alt="Eine junge Helferin und eine ältere Frau lachen gemeinsam am Küchentisch bei einer Tasse Kaffee" width="1200" height="1500" fetchpriority="high" />
+                    <figcaption>Kaffee in der Küche gehört dazu. Meistens ist das der wichtigste Teil.</figcaption>
+                </figure>
+            </div>
+            <div class="wrap">
+                <p class="hero-facts">Immer dieselbe Bezugsperson, bei uns angestellt und geprüft. Nach jedem Besuch eine kurze Rückmeldung an die Familie. Jederzeit kündbar.</p>
+            </div>
+        </section>
+
+        <!-- Leistungen -->
+        <section class="section" id="leistungen">
+            <div class="wrap">
+                <div class="section-head">
+                    <h2>Was ein gutes Enkerl eben so macht.</h2>
+                    <p class="lead">Wir übernehmen die Dinge, die im Alltag schwerer fallen oder für die schlicht die Zeit fehlt. Keine medizinische Pflege, dafür Zeit, Verlässlichkeit und ein Gesicht, das man kennt.</p>
+                </div>
+
+                <div class="group">
+                    <div class="group-aside">
+                        <h3>Für Eltern und Großeltern</h3>
+                        <p class="muted">Damit das Leben in den eigenen vier Wänden länger gut gelingt. Regelmäßig, mit derselben Person.</p>
+                        <img class="photo" src="assets/img/enkerl/gesellschaft.jpg" alt="Ein junger Helfer und ein älterer Herr spielen Karten am Wohnzimmertisch" loading="lazy" width="1000" height="750" />
+                    </div>
+                    <ul class="menu">
+                        <li><strong>Haushalt</strong><span>Reinigen, Wäsche, Betten frisch beziehen, Pflanzen gießen.</span></li>
+                        <li><strong>Einkäufe und Besorgungen</strong><span>Lebensmittel, Apotheke, Post. Bargeld immer gegen Beleg.</span></li>
+                        <li><strong>Kochen</strong><span>Frische Mahlzeiten, gern gemeinsam am Herd.</span></li>
+                        <li><strong>Begleitung</strong><span>Zum Arzt, aufs Amt, zum Friedhof oder einfach eine Runde durchs Grätzl.</span></li>
+                        <li><strong>Gesellschaft</strong><span>Kaffee trinken, Karten spielen, vorlesen, zuhören.</span></li>
+                        <li><strong>Organisation</strong><span>Termine im Blick, Post sortiert, Anträge vorbereitet.</span></li>
                     </ul>
                 </div>
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container">
-                <div class="masthead-subheading">Für Ihre Eltern &amp; Großeltern</div>
-                <div class="masthead-heading">Alltagshilfe von Jung für Alt.</div>
-                <p class="masthead-text">Junge, herzliche Helfer:innen unterstützen daheim – beim Einkaufen, im Haushalt und mit Zeit für ein gutes Gespräch. Damit das Leben in den eigenen vier Wänden länger gelingt.</p>
-                <a class="btn btn-primary btn-xl" href="#contact">Kostenloses Erstgespräch</a>
-            </div>
-        </header>
-        <!-- Services-->
-        <section class="page-section" id="services">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading">Womit wir im Alltag helfen</h2>
-                    <h3 class="section-subheading text-muted">Verlässliche Unterstützung, herzlich und auf Augenhöhe.</h3>
+
+                <div class="group is-flipped">
+                    <div class="group-aside">
+                        <h3>Für Kinder</h3>
+                        <p class="muted">Seit Herbst 2026 auch für die Kleinen: Wenn Kindergarten, Schule und Arbeitszeiten nicht zusammenpassen, springt ein Enkerl ein. Beim nächsten Mal wieder dieselbe Person.</p>
+                        <img class="photo" src="assets/img/enkerl/kinder.jpg" alt="Eine junge Helferin hilft einem Mädchen am Küchentisch bei den Hausaufgaben" loading="lazy" width="1168" height="880" />
+                    </div>
+                    <ul class="menu">
+                        <li><strong>Abholen und Bringen</strong><span>Kindergarten, Schule, Musikschule, Sportverein. Zu Fuß oder mit den Öffis.</span></li>
+                        <li><strong>Hausaufgaben und Lernen</strong><span>Geduldig erklären, gemeinsam üben, Schultasche für morgen packen.</span></li>
+                        <li><strong>Nachmittage und Abende</strong><span>Betreuung zu Hause, wenn Sie länger arbeiten oder einmal ausgehen möchten.</span></li>
+                        <li><strong>Spielen und Rausgehen</strong><span>Spielplatz, Park, Bastelnachmittag. Ohne Bildschirm, wenn Sie das so wollen.</span></li>
+                    </ul>
                 </div>
-                <div class="row text-center gy-4">
-                    <div class="col-md-6 col-lg-4 reveal">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-broom fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Haushalt</h4>
-                        <p class="text-muted">Reinigen, Wäsche, Ordnung halten.</p>
+
+                <div class="group">
+                    <div class="group-aside">
+                        <h3>Für Haustiere</h3>
+                        <p class="muted">Der Hund braucht seine Runde, auch wenn die Hüfte nicht mehr mitspielt oder der Urlaub ansteht. Das Tier bleibt daheim, wir kommen vorbei.</p>
+                        <img class="photo" src="assets/img/enkerl/tiere.jpg" alt="Eine ältere Dame übergibt im Vorzimmer einer jungen Helferin die Leine ihres Dackels" loading="lazy" width="1200" height="896" />
                     </div>
-                    <div class="col-md-6 col-lg-4 reveal">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-basket-shopping fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Einkäufe &amp; Besorgungen</h4>
-                        <p class="text-muted">Lebensmittel, Apotheke, Post.</p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 reveal">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-utensils fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Kochen</h4>
-                        <p class="text-muted">Frische Mahlzeiten gemeinsam zubereiten.</p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 reveal">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-person-walking fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Begleitung</h4>
-                        <p class="text-muted">Zu Arzt, Amt oder beim Spaziergang.</p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 reveal">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-mug-hot fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Gesellschaft</h4>
-                        <p class="text-muted">Zeit für Gespräche, Spiele, Vorlesen.</p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 reveal">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-calendar-check fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Organisation</h4>
-                        <p class="text-muted">Termine, Post und kleine Alltagshilfen.</p>
-                    </div>
+                    <ul class="menu">
+                        <li><strong>Gassi gehen</strong><span>Regelmäßige Runden, angepasst an Tempo und Kondition des Hundes.</span></li>
+                        <li><strong>Füttern und Katzensitting</strong><span>In gewohnter Umgebung, mit kurzer Rückmeldung nach jedem Besuch.</span></li>
+                        <li><strong>Tierarzt-Begleitung</strong><span>Wir bringen hin, warten mit und holen wieder ab.</span></li>
+                        <li><strong>Urlaubsbetreuung</strong><span>Während Sie weg sind, schauen wir täglich vorbei. Auch bei Meerschweinchen und Wellensittich.</span></li>
+                    </ul>
                 </div>
-                <div class="row">
-                    <div class="col-lg-9 mx-auto text-center reveal">
-                        <p class="services-note"><i class="fas fa-circle-info me-2"></i>Wir leisten bewusst keine medizinische Pflege – dafür empfehlen wir Ihnen geprüfte Partner.</p>
-                    </div>
+
+                <div class="not-list">
+                    <h3>Was wir bewusst nicht tun</h3>
+                    <p class="muted">Keine medizinische Pflege, keine Medikamentengabe, kein Heben oder Stützen. Wer das braucht, bekommt von uns eine ehrliche Auskunft und die Empfehlung eines geprüften Pflegepartners. Diese Grenze schützt Ihre Angehörigen und unsere Helfer:innen.</p>
                 </div>
             </div>
         </section>
-        <!-- Trust badges-->
-        <div class="py-5 bg-cream" id="trust">
-            <div class="container">
-                <div class="row align-items-stretch text-center justify-content-center gy-4">
-                    <div class="col-6 col-md-3 reveal">
-                        <div class="trust-badge">
-                            <i class="fas fa-user-check"></i>
-                            <span>Feste Bezugsperson</span>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-3 reveal">
-                        <div class="trust-badge">
-                            <i class="fas fa-shield-heart"></i>
-                            <span>Geprüfte Helfer:innen</span>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-3 reveal">
-                        <div class="trust-badge">
-                            <i class="fas fa-handshake-angle"></i>
-                            <span>Faire, flexible Anstellung</span>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-3 reveal">
-                        <div class="trust-badge">
-                            <i class="fas fa-comment-dots"></i>
-                            <span>Update nach jedem Besuch</span>
-                        </div>
-                    </div>
+
+        <!-- Rückmeldung -->
+        <section class="section update" id="rueckmeldung">
+            <div class="wrap">
+                <div>
+                    <h2>Sie erfahren nach jedem Besuch, wie es war.</h2>
+                    <p>Die meisten Familien, die uns anrufen, wohnen nicht um die Ecke. Deshalb schreibt Ihre Helfer:in nach jedem Besuch eine kurze Nachricht an die Person, die Sie dafür bestimmen. Nicht lang, aber konkret. Was erledigt wurde, was aufgefallen ist, wann der nächste Termin ist.</p>
+                    <p>Was Ihre Mutter oder Ihr Vater dabei nicht weitergegeben haben möchte, bleibt in der Wohnung. Die Rückmeldung gibt es nur mit ihrem Einverständnis.</p>
                 </div>
+                <aside class="zettel" aria-label="Beispiel einer Rückmeldung">
+                    <div class="zettel-head"><span>Rückmeldung an Familie Hofer</span><span>Di, 14:32</span></div>
+                    <p>Heute bei Ihrer Mama: Einkauf bei der Billa erledigt, Beleg liegt in der Küchenlade. Grießnockerlsuppe gekocht, Rest ist im Kühlschrank für morgen.</p>
+                    <p>Danach eine Partie Rummy. Sie hat 2:1 gewonnen und fand das sehr wichtig zu erwähnen.</p>
+                    <p>Der Wasserhahn im Bad tropft, ich hab die Hausverwaltung angeschrieben. Nächster Besuch Donnerstag um 10.</p>
+                    <p class="sig">Lena</p>
+                </aside>
             </div>
-        </div>
-        <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading">So sieht der Enkerl-Alltag aus</h2>
-                    <h3 class="section-subheading text-muted">Momente aus der täglichen Begleitung.</h3>
+        </section>
+
+        <!-- Ablauf -->
+        <section class="section" id="ablauf">
+            <div class="wrap">
+                <div class="section-head">
+                    <h2>Vom ersten Anruf bis zur ersten Rückmeldung.</h2>
+                    <p class="lead">So läuft es bei den meisten Familien, die sich bei uns melden.</p>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4 reveal">
-                        <!-- Portfolio item 1-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/enkerl/einkauf.jpg" alt="Gemeinsam einkaufen" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Gemeinsam einkaufen</div>
-                                <div class="portfolio-caption-subheading text-muted">Lebensmittel &amp; Besorgungen</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 reveal">
-                        <!-- Portfolio item 2-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/enkerl/kochen.jpg" alt="Zusammen kochen" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Zusammen kochen</div>
-                                <div class="portfolio-caption-subheading text-muted">Frische Mahlzeiten</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 reveal">
-                        <!-- Portfolio item 3-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/enkerl/gesellschaft.jpg" alt="Zeit für Gesellschaft" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Zeit für Gesellschaft</div>
-                                <div class="portfolio-caption-subheading text-muted">Gespräche &amp; Spiele</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 reveal">
-                        <!-- Portfolio item 4-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/enkerl/begleitung.jpg" alt="Sichere Begleitung" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Sichere Begleitung</div>
-                                <div class="portfolio-caption-subheading text-muted">Arzt, Amt &amp; unterwegs</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0 reveal">
-                        <!-- Portfolio item 5-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/enkerl/haushalt.jpg" alt="Hilfe im Haushalt" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Hilfe im Haushalt</div>
-                                <div class="portfolio-caption-subheading text-muted">Ordnung &amp; Wäsche</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 reveal">
-                        <!-- Portfolio item 6-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/enkerl/spaziergang.jpg" alt="Frische Luft und Bewegung" />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Frische Luft &amp; Bewegung</div>
-                                <div class="portfolio-caption-subheading text-muted">Spaziergänge im Grätzl</div>
-                            </div>
-                        </div>
-                    </div>
+                <ol class="steps">
+                    <li>
+                        <span class="when">Montag</span>
+                        <h3>Sie rufen an</h3>
+                        <p>Am Telefon oder bei Ihnen daheim klären wir, was gebraucht wird, wie oft, und was es kostet. Kostenlos und unverbindlich.</p>
+                    </li>
+                    <li>
+                        <span class="when">Donnerstag</span>
+                        <h3>Kennenlernen</h3>
+                        <p>Ihre feste Helfer:in kommt zum Probetermin, vorher bekommen Sie Name und Foto. Passt es nicht, suchen wir jemand anderen.</p>
+                    </li>
+                    <li>
+                        <span class="when">Die Woche darauf</span>
+                        <h3>Erster Besuch</h3>
+                        <p>Ab jetzt zu fixen Zeiten, immer dieselbe Person. Muss sie einmal vertreten werden, sagen wir das vorher, mit Namen.</p>
+                    </li>
+                    <li>
+                        <span class="when">Am selben Abend</span>
+                        <h3>Erste Rückmeldung</h3>
+                        <p>Eine kurze Nachricht an die Familie. Und wenn etwas nicht passt: eine Ansprechperson bei uns, die abhebt.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Momente -->
+        <section class="section" id="alltag">
+            <div class="wrap">
+                <div class="strip">
+                    <figure>
+                        <img class="photo" src="assets/img/enkerl/einkauf.jpg" alt="Ein junger Helfer trägt die Einkaufstasche, daneben ein älterer Herr auf der Straße" loading="lazy" width="1000" height="746" />
+                        <figcaption>Einkauf im Grätzl, die schwere Tasche trägt das Enkerl.</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="photo" src="assets/img/enkerl/kochen.jpg" alt="Junge Helferin und ältere Frau schneiden gemeinsam Gemüse in der Küche" loading="lazy" width="1000" height="1000" />
+                        <figcaption>Gemeinsam kochen. Das Rezept kommt meistens von der älteren Seite.</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="photo" src="assets/img/enkerl/spaziergang.jpg" alt="Junge Helferin und ältere Dame beim Spaziergang unter Bäumen" loading="lazy" width="1000" height="746" />
+                        <figcaption>Eine Runde an der frischen Luft, im eigenen Tempo.</figcaption>
+                    </figure>
                 </div>
             </div>
         </section>
-        <!-- About / How it works-->
-        <section class="page-section" id="about">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading">So einfach funktioniert's</h2>
-                    <h3 class="section-subheading text-muted">In vier Schritten zur passenden Hilfe.</h3>
+
+        <!-- Vertrauen -->
+        <section class="section trust" id="vertrauen">
+            <div class="wrap">
+                <div>
+                    <h2>Warum Familien uns den Wohnungsschlüssel anvertrauen.</h2>
+                    <p>Wir bringen einen fremden jungen Menschen in die Wohnung Ihrer Eltern. Das ist eine große Sache, und wir behandeln es auch so. Deshalb behaupten wir Vertrauen nicht, sondern zeigen, wie wir es absichern.</p>
+                    <figure class="trust-figure">
+                        <img class="photo" src="assets/img/enkerl/fenster.jpg" alt="Ein junger Helfer und ein älterer Herr stehen am offenen Altbaufenster und schauen auf die Straße" loading="lazy" width="1200" height="1500" />
+                    </figure>
                 </div>
-                <ul class="timeline">
-                    <li class="reveal">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/enkerl/helfer.jpg" alt="Erstgespräch" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>1 · Kostenloses Erstgespräch</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Wir klären Bedarf und Finanzierung über das Pflegegeld.</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted reveal">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/enkerl/hero.jpg" alt="Helfer:in kennenlernen" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2 · Helfer:in kennenlernen</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Sie bekommen Ihre feste, persönliche Bezugsperson.</p></div>
-                        </div>
-                    </li>
-                    <li class="reveal">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/enkerl/kochen.jpg" alt="Regelmäßige Hilfe" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>3 · Regelmäßige Hilfe</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Verlässlich nach Plan, flexibel auf Wunsch.</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted reveal">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/enkerl/haende.jpg" alt="Updates für die Familie" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>4 · Updates für die Familie</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Kurze Rückmeldung nach jedem Besuch.</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted reveal">
-                        <div class="timeline-image timeline-cta">
-                            <a href="#contact">
-                                <h4>
-                                    Jetzt
-                                    <br />
-                                    anfragen!
-                                </h4>
-                            </a>
-                        </div>
-                    </li>
+                <ul class="checks">
+                    <li><strong>Angestellt, nicht vermittelt</strong><span>Unsere Helfer:innen sind bei Enkerl angestellt und versichert. Keine Plattform, keine Scheinselbstständigkeit.</span></li>
+                    <li><strong>Geprüft vor dem ersten Einsatz</strong><span>Ausweis, Strafregisterbescheinigung, Referenz und persönliches Gespräch. Dann eine Einschulung, bevor jemand zu Ihnen kommt.</span></li>
+                    <li><strong>Enkerl-Ausweis an der Tür</strong><span>Jede Helfer:in zeigt unaufgefordert ihren Ausweis mit Foto. Wer nicht angekündigt ist, kommt nicht rein.</span></li>
+                    <li><strong>Bargeld nur gegen Beleg</strong><span>Jeder Einkauf wird mit Kassenbon dokumentiert, das Wechselgeld kommt vollständig zurück. Eine Bankomatkarte nehmen wir grundsätzlich nicht an.</span></li>
+                    <li><strong>Klare Regeln</strong><span>Keine Geschenke, keine privaten Geldgeschäfte, Verschwiegenheit über alles, was in der Wohnung passiert. Das steht im Arbeitsvertrag.</span></li>
+                    <li><strong>Jederzeit kündbar</strong><span>Kein Knebelvertrag, keine Mindestlaufzeit. Wenn es nicht passt, hören wir auf.</span></li>
                 </ul>
             </div>
         </section>
-        <!-- Team -> Kosten & Pflegegeld-->
-        <section class="page-section bg-light" id="team">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading">Bezahlbar – mit Ihrem Pflegegeld</h2>
-                    <h3 class="section-subheading text-muted">Transparente Kosten, klar erklärt.</h3>
+
+        <!-- Kosten -->
+        <section class="price" id="kosten">
+            <div class="wrap">
+                <span class="amount"><sup>€</sup>29</span>
+                <span class="unit">pro Stunde, Richtwert</span>
+                <p>Abgerechnet wird nach tatsächlich geleisteten Stunden, ohne Mindestlaufzeit und ohne versteckte Kosten. Der Richtwert gilt für Alltagshilfe, Kinderbetreuung und Tierbetreuung gleichermaßen.</p>
+                <p class="fine">Ob in Ihrem Fall Pflegegeld, eine Zuwendung zur Ersatzpflege oder eine steuerliche Absetzbarkeit infrage kommen, hängt von Ihrer Situation ab. Wir gehen das im Erstgespräch ehrlich mit Ihnen durch und sagen auch, wenn es nicht passt.</p>
+                <a class="btn" href="#kontakt">Kostenloses Erstgespräch vereinbaren</a>
+            </div>
+        </section>
+
+        <!-- Fragen -->
+        <section class="section faq" id="fragen">
+            <div class="wrap">
+                <div class="section-head">
+                    <h2>Was Familien uns vor dem ersten Besuch fragen.</h2>
                 </div>
-                <div class="row gy-4">
-                    <div class="col-lg-4 reveal">
-                        <div class="cost-card">
-                            <div class="cost-icon"><i class="fas fa-wallet"></i></div>
-                            <h4>Pflegegeld</h4>
-                            <p class="text-muted">Stufe 1–7 (€206–€2.215/Monat) frei für Betreuung verwendbar.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 reveal">
-                        <div class="cost-card">
-                            <div class="cost-icon"><i class="fas fa-hand-holding-heart"></i></div>
-                            <h4>Ersatzpflege-Zuwendung</h4>
-                            <p class="text-muted">Staatliche Unterstützung, wenn die Hauptpflegeperson verhindert ist. Wir helfen beim Antrag.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 reveal">
-                        <div class="cost-card">
-                            <div class="cost-icon"><i class="fas fa-percent"></i></div>
-                            <h4>Steuerlich absetzbar</h4>
-                            <p class="text-muted">Als außergewöhnliche Belastung.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-9 mx-auto text-center reveal">
-                        <p class="cost-note"><strong>Richtwert €29/Stunde</strong> – transparent abgerechnet, ohne versteckte Kosten.</p>
-                    </div>
+                <div class="qa-list">
+                    <div class="qa"><h3>Wer kommt zu meiner Mutter?</h3><p>Eine feste Bezugsperson, die Sie und Ihre Mutter vorab kennenlernen, mit Name und Foto. Diese Person bleibt dieselbe. Bei Krankheit oder Urlaub kündigen wir die Vertretung immer vorher an. Sie können auch angeben, ob Ihnen eine Helferin oder ein Helfer lieber ist.</p></div>
+                    <div class="qa"><h3>Was macht ihr, wenn etwas Medizinisches gebraucht wird?</h3><p>Wir sagen es ehrlich und vermitteln an einen geprüften mobilen Pflegedienst. Unsere Helfer:innen erinnern gern an die Tablette um zwölf, aber sie richten und verabreichen keine Medikamente. Im Notfall gilt: Rettung 144, dann Sie.</p></div>
+                    <div class="qa"><h3>Ab welchem Alter betreut ihr Kinder?</h3><p>Wir betreuen Kinder ab dem Kindergartenalter: abholen, Hausaufgaben, Nachmittage und Abende zu Hause. Alle Helfer:innen, die zu Kindern kommen, haben eine aktuelle Strafregisterbescheinigung vorgelegt und die Einschulung durchlaufen. Was Ihr Kind braucht und wie Ihr Alltag aussieht, besprechen wir im Erstgespräch.</p></div>
+                    <div class="qa"><h3>Welche Tiere betreut ihr?</h3><p>Hunde, Katzen und Kleintiere, jeweils bei Ihnen zu Hause. Beim Kennenlernen schauen wir, ob Tier und Helfer:in zusammenpassen. Bei Hunden, die schwer zu führen sind, sagen wir lieber ehrlich ab, als ein Risiko einzugehen.</p></div>
+                    <div class="qa"><h3>Wie schnell kann jemand kommen?</h3><p>Enkerl ist auf regelmäßige, geplante Hilfe ausgelegt, nicht auf Notfalleinsätze. Je nach Grätzl und Wunschzeit dauert es vom Erstgespräch bis zum ersten Besuch meist ein bis zwei Wochen. Wir sagen Ihnen im Gespräch, was realistisch ist.</p></div>
+                    <div class="qa"><h3>Was ist, wenn etwas kaputtgeht oder verschwindet?</h3><p>Versehen passieren, und dafür sind wir versichert. Jeden Verdacht nehmen wir ernst: Es gibt eine feste Ansprechperson, dokumentierte Einsätze und Belege für jeden Einkauf. Schlüssel, Bargeld und Wertsachen laufen bei uns nach dem Vier-Augen-Prinzip.</p></div>
+                    <div class="qa"><h3>Kann ich jederzeit kündigen?</h3><p>Ja. Keine Mindestlaufzeit, keine Kündigungsfrist, die Sie über Monate bindet. Sie sollen bleiben, weil es gut läuft, nicht weil es im Vertrag steht.</p></div>
                 </div>
             </div>
         </section>
-        <!-- Recruiting band-->
-        <section class="page-section bg-cream" id="helfer">
-            <div class="container">
-                <div class="row align-items-center gx-lg-5 gy-4">
-                    <div class="col-lg-6 reveal">
-                        <img class="img-fluid rounded-4 recruit-img" src="assets/img/enkerl/helfer.jpg" alt="Werde ein Enkerl" />
-                    </div>
-                    <div class="col-lg-6 reveal">
-                        <h2 class="section-heading text-start mb-3">Werde ein Enkerl – der Nebenjob mit Sinn</h2>
-                        <p class="lead-text">Du bist jung, zuverlässig und gern unter Menschen? Verdiene Geld mit etwas, das wirklich zählt – du wählst deine Dienstzeiten selbst, faire Bezahlung, angestellt statt selbstständig.</p>
-                        <a class="btn btn-primary btn-xl mt-2" href="#contact">Jetzt bewerben</a>
-                    </div>
+
+        <!-- Helfer:innen -->
+        <section class="recruit" id="helfer">
+            <div class="wrap">
+                <img class="arch" src="assets/img/enkerl/helfer.jpg" alt="Eine junge Frau mit Rucksack lacht auf einer Straße in der Stadt" loading="lazy" width="1000" height="1250" />
+                <div>
+                    <h2>Ein Nebenjob, von dem du abends erzählst.</h2>
+                    <p class="lead">Du studierst, bist zwischen zwei Jobs oder willst neben der Arbeit etwas machen, das zählt. Bei Enkerl bekommst du eine Familie, die auf dich wartet, und einen Chef, der dich anstellt statt vermittelt.</p>
+                    <ul class="perks">
+                        <li>Du wählst deine Dienstzeiten selbst, deine Leute bleiben trotzdem dieselben.</li>
+                        <li>Echte Anstellung mit Versicherung, keine Selbstständigkeit auf Papier.</li>
+                        <li>Einschulung vor dem ersten Einsatz und jemand, den du immer anrufen kannst.</li>
+                        <li>Faire Bezahlung, pünktlich am Monatsende.</li>
+                    </ul>
+                    <a class="btn btn-light" href="#kontakt" data-anliegen="helfer">Jetzt bewerben</a>
                 </div>
             </div>
         </section>
-        <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading">Kostenloses Erstgespräch</h2>
-                    <h3 class="section-subheading text-muted">Wir freuen uns auf Ihre Nachricht.</h3>
-                </div>
-                <div class="row gx-lg-5">
-                    <div class="col-lg-7 reveal">
-                        <!-- Netlify Forms contact form-->
-                        <form name="kontakt" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/danke" id="contactForm">
-                            <input type="hidden" name="form-name" value="kontakt" />
-                            <p class="d-none">
-                                <label>Bitte nicht ausfüllen: <input name="bot-field" /></label>
-                            </p>
-                            <div class="row align-items-stretch mb-3">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="form-label" for="name">Name</label>
-                                        <input class="form-control" id="name" name="name" type="text" placeholder="Ihr Name" required />
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="form-label" for="email">E-Mail</label>
-                                        <input class="form-control" id="email" name="email" type="email" placeholder="Ihre E-Mail" required />
-                                    </div>
-                                    <div class="form-group mb-md-0">
-                                        <label class="form-label" for="phone">Telefon</label>
-                                        <input class="form-control" id="phone" name="telefon" type="tel" placeholder="Ihre Telefonnummer" />
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group form-group-textarea mb-md-0">
-                                        <label class="form-label" for="message">Nachricht</label>
-                                        <textarea class="form-control" id="message" name="nachricht" placeholder="Wie können wir helfen?" required></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-check mb-4">
-                                <input class="form-check-input" type="checkbox" id="dsgvo" name="dsgvo" required />
-                                <label class="form-check-label" for="dsgvo">
-                                    Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und willige in die Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage ein.
-                                </label>
-                            </div>
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center contact-success mb-3">
-                                    <div class="fw-bolder"><i class="fas fa-circle-check me-1"></i>Vielen Dank!</div>
-                                    Ihre Nachricht ist bei uns angekommen. Wir melden uns in Kürze bei Ihnen.
-                                </div>
-                            </div>
-                            <div class="text-center"><button class="btn btn-primary btn-xl" id="submitButton" type="submit">Anfrage senden</button></div>
-                        </form>
+
+        <!-- Kontakt -->
+        <section class="section contact" id="kontakt">
+            <div class="wrap">
+                <div>
+                    <div class="section-head">
+                        <h2>Kostenloses Erstgespräch.</h2>
+                        <p>Schreiben Sie uns kurz, worum es geht. Wir melden uns innerhalb eines Werktags, gern auch telefonisch.</p>
                     </div>
-                    <div class="col-lg-5 mt-5 mt-lg-0 reveal">
-                        <div class="contact-info">
-                            <div class="contact-info-item">
-                                <i class="fas fa-location-dot"></i>
-                                <div>
-                                    <h4>Adresse</h4>
-                                    <p>[Platzhalter Straße + Hausnummer]<br />1xx0 Wien, Österreich</p>
-                                </div>
+                    <div class="form-success" id="form-success" hidden>
+                        <p><strong>Danke, Ihre Nachricht ist angekommen.</strong> Wir melden uns innerhalb eines Werktags bei Ihnen.</p>
+                    </div>
+                    <form name="kontakt" method="POST" action="/danke" data-netlify="true" netlify-honeypot="bot-field" id="kontaktformular">
+                        <input type="hidden" name="form-name" value="kontakt" />
+                        <p hidden><label>Bitte nicht ausfüllen: <input name="bot-field" /></label></p>
+                        <div class="field-row">
+                            <div class="field">
+                                <label for="name">Ihr Name</label>
+                                <input id="name" name="name" type="text" autocomplete="name" required />
                             </div>
-                            <div class="contact-info-item">
-                                <i class="fas fa-phone"></i>
-                                <div>
-                                    <h4>Telefon</h4>
-                                    <p><a href="tel:+431234567">+43 1 234 567</a> <span class="text-muted">(Platzhalter)</span></p>
-                                </div>
-                            </div>
-                            <div class="contact-info-item">
-                                <i class="fas fa-envelope"></i>
-                                <div>
-                                    <h4>E-Mail</h4>
-                                    <p><a href="mailto:hallo@enkerl.example">hallo@enkerl.example</a> <span class="text-muted">(Platzhalter)</span></p>
-                                </div>
+                            <div class="field">
+                                <label for="telefon">Telefon</label>
+                                <input id="telefon" name="telefon" type="tel" autocomplete="tel" />
                             </div>
                         </div>
-                    </div>
+                        <div class="field-row">
+                            <div class="field">
+                                <label for="email">E-Mail</label>
+                                <input id="email" name="email" type="email" autocomplete="email" required />
+                            </div>
+                            <div class="field">
+                                <label for="anliegen">Worum geht es?</label>
+                                <select id="anliegen" name="anliegen">
+                                    <option value="alltagshilfe">Alltagshilfe für Eltern oder Großeltern</option>
+                                    <option value="kinder">Kinderbetreuung</option>
+                                    <option value="tiere">Tierbetreuung</option>
+                                    <option value="helfer">Ich möchte Helfer:in werden</option>
+                                    <option value="sonstiges">Etwas anderes</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label for="nachricht">Ihre Nachricht</label>
+                            <textarea id="nachricht" name="nachricht" required placeholder="Zum Beispiel: Meine Mutter (82) wohnt im 3. Bezirk und bräuchte zweimal die Woche Hilfe beim Einkaufen."></textarea>
+                        </div>
+                        <label class="consent">
+                            <input type="checkbox" name="dsgvo" required />
+                            <span>Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und bin einverstanden, dass meine Angaben zur Bearbeitung meiner Anfrage verarbeitet werden.</span>
+                        </label>
+                        <button class="btn" type="submit">Anfrage senden</button>
+                    </form>
                 </div>
+                <aside class="contact-aside">
+                    <h3>Direkt erreichen</h3>
+                    <dl>
+                        <dt>Telefon</dt>
+                        <dd><a href="tel:+431234567">+43 1 234 567</a> <span class="small">(Platzhalter)</span></dd>
+                        <dt>E-Mail</dt>
+                        <dd><a href="mailto:hallo@enkerl.example">hallo@enkerl.example</a> <span class="small">(Platzhalter)</span></dd>
+                        <dt>Erreichbar</dt>
+                        <dd>Montag bis Freitag, 9 bis 17 Uhr. Außerhalb dieser Zeiten rufen wir am nächsten Werktag zurück.</dd>
+                        <dt>Einsatzgebiet</dt>
+                        <dd>Wien, alle Bezirke. Die Helfer:in kommt aus Ihrem Grätzl oder aus der Nähe.</dd>
+                    </dl>
+                </aside>
             </div>
         </section>
-        <!-- Footer-->
-        <footer class="footer py-4">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">&copy; 2026 Enkerl</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="link-footer text-decoration-none me-3" href="impressum.html">Impressum</a>
-                        <a class="link-footer text-decoration-none" href="datenschutz.html">Datenschutz</a>
-                    </div>
-                    <div class="col-lg-4 text-lg-end footer-credit">Vorlage: Start Bootstrap (MIT)</div>
-                </div>
-            </div>
-        </footer>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio item 1 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Schließen" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <h2>Gemeinsam einkaufen</h2>
-                                    <p class="item-intro text-muted">Lebensmittel, Apotheke und Post – erledigt.</p>
-                                    <img class="img-fluid d-block mx-auto rounded-4" src="assets/img/enkerl/einkauf.jpg" alt="Gemeinsam einkaufen" />
-                                    <p>Wir übernehmen den Einkauf gemeinsam oder stellvertretend – ganz nach Wunsch. So bleibt der Kühlschrank gefüllt und der Weg in den Supermarkt kein Hindernis mehr.</p>
-                                    <button class="btn btn-primary btn-xl" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Schließen
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <a class="brand" href="#top">Enkerl</a>
+            <ul>
+                <li><a href="impressum.html">Impressum</a></li>
+                <li><a href="datenschutz.html">Datenschutz</a></li>
+            </ul>
+            <span>© 2026 Enkerl · Alltagshilfe von Jung für Alt · Wien</span>
         </div>
-        <!-- Portfolio item 2 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Schließen" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <h2>Zusammen kochen</h2>
-                                    <p class="item-intro text-muted">Frische Mahlzeiten gemeinsam zubereiten.</p>
-                                    <img class="img-fluid d-block mx-auto rounded-4" src="assets/img/enkerl/kochen.jpg" alt="Zusammen kochen" />
-                                    <p>Vom Einkauf bis zum Teller: Wir kochen gemeinsam frische, gesunde Mahlzeiten – und der Esstisch wird wieder zum Ort für ein nettes Gespräch.</p>
-                                    <button class="btn btn-primary btn-xl" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Schließen
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 3 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Schließen" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <h2>Zeit für Gesellschaft</h2>
-                                    <p class="item-intro text-muted">Gespräche, Spiele, Vorlesen.</p>
-                                    <img class="img-fluid d-block mx-auto rounded-4" src="assets/img/enkerl/gesellschaft.jpg" alt="Zeit für Gesellschaft" />
-                                    <p>Manchmal ist Zeit das schönste Geschenk. Unsere Helfer:innen nehmen sich Zeit zum Zuhören, für ein Kartenspiel oder die Lieblingsgeschichte.</p>
-                                    <button class="btn btn-primary btn-xl" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Schließen
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 4 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Schließen" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <h2>Sichere Begleitung</h2>
-                                    <p class="item-intro text-muted">Zu Arzt, Amt oder beim Spaziergang.</p>
-                                    <img class="img-fluid d-block mx-auto rounded-4" src="assets/img/enkerl/begleitung.jpg" alt="Sichere Begleitung" />
-                                    <p>Wir begleiten sicher zu Terminen und Erledigungen – mit Geduld, einem offenen Ohr und einer helfenden Hand auf jedem Weg.</p>
-                                    <button class="btn btn-primary btn-xl" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Schließen
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 5 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Schließen" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <h2>Hilfe im Haushalt</h2>
-                                    <p class="item-intro text-muted">Reinigen, Wäsche, Ordnung halten.</p>
-                                    <img class="img-fluid d-block mx-auto rounded-4" src="assets/img/enkerl/haushalt.jpg" alt="Hilfe im Haushalt" />
-                                    <p>Ein gepflegtes Zuhause gibt Geborgenheit. Wir halten Ordnung, erledigen die Wäsche und sorgen dafür, dass alles seinen Platz behält.</p>
-                                    <button class="btn btn-primary btn-xl" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Schließen
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio item 6 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Schließen" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <h2>Frische Luft &amp; Bewegung</h2>
-                                    <p class="item-intro text-muted">Spaziergänge im Grätzl.</p>
-                                    <img class="img-fluid d-block mx-auto rounded-4" src="assets/img/enkerl/spaziergang.jpg" alt="Frische Luft und Bewegung" />
-                                    <p>Ein Spaziergang an der frischen Luft tut Körper und Seele gut. Wir gehen gemeinsam – im eigenen Tempo und immer mit Begleitung.</p>
-                                    <button class="btn btn-primary btn-xl" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Schließen
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- Enkerl reveal-on-scroll JS-->
-        <script src="js/enkerl.js"></script>
-    </body>
+    </footer>
+
+    <script src="js/enkerl.js"></script>
+</body>
 </html>
